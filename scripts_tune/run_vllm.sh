@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-set -e
+# set -e
 
-cd "$(dirname "$0")/.."
+# cd "$(dirname "$0")/.."
 
 # Load env
 set -a

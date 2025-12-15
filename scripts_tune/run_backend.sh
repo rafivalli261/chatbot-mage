@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-set -e
-cd "$(dirname "$0")/.."
+# set -e
+# cd "$(dirname "$0")/.."
+
+# pip install -r requirements.txt
 
 set -a
 source .env

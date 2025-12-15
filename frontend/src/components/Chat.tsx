@@ -2,7 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import UploadPdf from "./UploadPdf";
-import MessageList, { ChatMessage } from "./MessageList";
+import MessageList, { ChatMessage } from "./Message";
 import Composer from "./Composer";
 import { streamAskPdf, streamChat } from "@/lib/api";
 import type { SsePayload } from "@/lib/sse";
@@ -12,7 +12,7 @@ export default function Chat() {
     {
       role: "assistant",
       content:
-        "Hi! Upload a PDF, then enable “Ask Document” to query it. I will stream answers."
+        "Hi! *Upload a PDF*, **then enable** “Ask Document” to query it. I will stream answers."
     }
   ]);
 
